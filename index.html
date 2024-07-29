@@ -1,92 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patada | Associação de Proteção dos Animais</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="A Patada é uma Associação dedicada à defesa, resgate e doação responsável de animais."
+    />
 
-     <!-- FAVICON -->
-     <link rel="shortcut icon" href="img\img-logo.png" type="image/x-icon">
-    
-     <!-- BOOTSTRAP CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-     <!-- BOOTSTRAP ICONS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
- 
-     <!-- MEU CSS -->
-     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-              <nav class="navbar fixed-top navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="img\img-logo.png" alt="Logo da Patada" width="50" height="50"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link" href="#">Início</a>
-                      <a class="nav-link" href="#">Doação</a>
-                      <a class="nav-link" href="#">Adote</a>
-                      <a class="nav-link" href="#">Contacto</a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+    <link rel="icon" href="img/faviconp.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Patada &mdash; Associação de Amparo a Animais</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Patada logo" src="img/patada-logo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="/">Início</a></li>
+          <li>
+            <a class="main-nav-link" href="/adote">Adote</a>
+          </li>
+          <li><a class="main-nav-link" href="/contacto.html">Contacto</a></li>
+        
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
-
     <main>
-      <section class="section-hero container-fluid">
+      <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-            Transformando vidas, uma pata de cada vez.
+              Transformando vidas, uma pata de cada vez
             </h1>
             <p class="hero-description">
-              A Patada é uma associação dedicada à defesa, resgate e doação responsável de animais. Nossa missão é proteger os direitos dos animais, oferecendo-lhes uma segunda chance para uma vida digna e cheia de amor. Atuamos ativamente no resgate de animais abandonados e vítimas de maus-tratos, proporcionando cuidados veterinários e abrigo temporário até que encontremos lares permanentes para eles.
+              A Patada é uma associação dedicada à defesa, resgate e doação responsável de animais. Nossa missão é proteger os direitos dos animais, oferecendo-lhes uma segunda chance para uma vida digna e cheia de amor.
             </p>
+            <a href="/contacto.html" class="btn btn--full margin-right-sm"
+              >Quero ajudar!</a
+            >
 
+            <a href="#motive" class="btn btn--outline">Saiba mais &darr;</a>
           </div>
           <div class="hero-img-box">
             <picture>
+              <source srcset="img/heroimg.webp" type="image/webp" />
+              <source srcset="img/heroimg.png" type="image/png" />
+
               <img
-                src="img\ppl-pets.png"
-                class="hero-img img-fluid"
-                alt="Womand enjoying food, meals in storage container, and food bowls on a table"
+                src="img/.png"
+                class="hero-img"
+                alt="Couple with rescued dog and cat"
               />
             </picture>
           </div>
         </div>
       </section>
 
-      <section class="container container-fluid">
-        <h1 class="heading-primary">Por que os animais?</h1>
-        <div class="card-group">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text"> A atuação de uma ONG de amparo animal na proteção de animais de rua se torna essencial devido a diversos fatores. Primeiramente, os animais de rua frequentemente enfrentam condições adversas, como fome, doenças, maus-tratos e ausência de abrigo adequado. Sem intervenção, esses animais sofrem e muitas vezes têm uma vida curta e dolorosa.</p>
-            </div>
-          </div>
+      <section class="section-motive" id="motive">
+        <div class="container">
+          <h2 class="motive-heading center-text">
+           Por que os animais?
+          </h2>
         </div>
-      </section>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="card-text-box">
+            <p class="card-description">
+              A atuação de uma ONG de amparo animal na proteção de animais de rua se torna essencial devido a diversos fatores. Primeiramente, os animais de rua frequentemente enfrentam condições adversas, como fome, doenças, maus-tratos e ausência de abrigo adequado. Sem intervenção, esses animais sofrem e muitas vezes têm uma vida curta e dolorosa.
+            </p>
+          </div>
+
+          <div class="card-img-box">
+            <img
+              src="img/card-img-01.png"
+              class="card-img"
+              alt="Man with dogs"
+            />
+          </div>
+
+          <div class="card-img-box">
+            <img
+              src="img/card-img-02.png"
+              class="card-img"
+              alt="Man with dogs"
+            />
+          </div>
+
+          
+          <div class="card-text-box">
+            <p class="card-description">
+              Os animais não têm voz para denunciar abusos ou pedir ajuda. Eles não têm meios de se defender contra a fome, as doenças e a violência. Quando decidimos ajudar esses seres, estamos fazendo uma escolha ética de proteger aqueles que não podem se proteger. É uma questão de empatia e responsabilidade social.
+            </p>
+          </div>
+
 
     </main>
 
-    
     <footer class="footer">
-          <p class="copyright">
-            Copyright &copy; <span class="year"> 2024</span> by Gabriela Vilela
-          </p>
-    </footer>
-    
-    <!-- BOOTSTRAP JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <div class="container grid">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/patada-logo.png" />
+          </a>
 
-    <!-- MEU JS -->
-    <script src="js/script.js"></script>
-</body>
+          <p class="copyright center-text">
+            Desenvolvido por Gabriela Vilela.
+          </p>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-github"></ion-icon
+              ></a>
+            </li>
+          
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
