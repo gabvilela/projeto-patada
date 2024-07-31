@@ -1,4 +1,4 @@
-# Patada - Associação de Amparo a Animais
+# Patada - Associação de Amparo a Animais 🐾
 
 ## Descrição
 
@@ -26,3 +26,15 @@ O projeto conta com as seguintes páginas:
 - **HTML**: Estrutura das páginas e conteúdo do site.
 - **CSS**: Estilização e layout das páginas, garantindo uma aparência agradável e intuitiva.
 - **JavaScript**: Interatividade e funcionalidades dinâmicas, como validação de formulários e exibição de alertas.
+
+## Como Acessar o Projeto
+
+Para acessar o site da Patada, basta clonar o repositório do projeto e abrir o arquivo `index.html` em seu navegador.
+
+1. - Clone o repositório:
+     git clone https://github.com/gabrielavilelax/projeto-patada.git
+
+2. - Navegue até o diretório do projeto:
+     cd projeto-patada
+
+3. - Abra o arquivo index.html em seu navegador.
