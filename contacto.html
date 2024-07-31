@@ -92,7 +92,7 @@
         <div class="col-12 col-md-6 my-auto">
           <div class="row">
             <div class="form-wrapper">
-              <form action="#" method="GET">
+              <form id="contactForm" action="#" method="GET">
                 <h3 style="color:#e46665" class="contact-title text-center">Fale com a gente!</h3>
                 <div class="mb-3">
                   <label for="nome" class="form-label">Nome:</label>
@@ -164,6 +164,18 @@
     ></script>
 
     <script defer src="js/script.js"></script>
+
+  <!-- Toast -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="successToast" class="toast align-items-center toast-config border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          Mensagem enviada com sucesso!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
 
   </body>
 </html>

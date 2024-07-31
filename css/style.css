@@ -145,6 +145,7 @@
 
 .text-body-secondary {
   padding-top: 2rem;
+  font-size: 1.2rem;
 }
 
 .text-body-secondary,
@@ -283,6 +284,15 @@
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
+}
+
+/**************************/
+/* TOAST */
+/**************************/
+.toast-config {
+  background-color: #f6cd61;
+  color: #e46665;
+  font-size: 1.6rem;
 }
 
 /**************************/
